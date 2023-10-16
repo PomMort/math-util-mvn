@@ -27,7 +27,7 @@ public class MathUtility {
             return 1;// nếu có thể kết thúc sớm, thì kết thúc ngay đi
         //sống sót đến chỗ này, sure n = 2 to 20. Vì nếu ko chết dọc đường
         // ở 2 cụm if ở trên rồi, KO CẦN ELSE NẾU TRC ĐÓ XÀI RETURN
-        long result = 1; // giai thua` khoi? dau` la` 1
+        long result = 10; // giai thua` khoi? dau` la` 1
         //nhân dồn 2 3 4 5... n vào biến này thì thành n!
         for (int i = 2; i <= n; i++) {
              result *= i;
